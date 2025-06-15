@@ -1,6 +1,6 @@
-public class test {
+public class ProjetoEstudo {
     public static void main(String[] args) {
-        System.out.println("wello");
+        System.out.println("Olá Mundo");
     }
 }
 

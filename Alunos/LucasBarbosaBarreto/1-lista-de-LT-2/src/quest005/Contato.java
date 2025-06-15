@@ -19,7 +19,7 @@ public class Contato {
                 "nome='" + nome + '\'' +
                 ", email='" + email + '\'' +
                 ", telefone='" + telefone + '\'' +
-                '}'; // coloquei estilo json para ficar mais bonitinho
+                '}';
     }
 
     @Override
@@ -27,11 +27,11 @@ public class Contato {
         if (this == o) return true;
         if (!(o instanceof Contato)) return false;
         Contato contato = (Contato) o;
-        return email.equals(contato.email); 
+        return email.equals(contato.email);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(email); 
+        return Objects.hash(email);
     }
 }
